@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/steering_cummity_style.css">
+    <link rel="icon" href="gallery/DTlogo.png" type="image/x-icon">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ICCRDA - Technical Committee</title>
+</head>
+
+<body>
+    <!-- scroll to top -->
+  <div class="circle-container">
+    <svg class="circle-progress svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+    <div class="jumbotron">
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top"></nav>
+    <br>
+    <div class="container">
+        <div class="heading">Technical Committee</div>
+        <hr class="seperator-1">
+        <div id="technical-container"></div>
+
+    </div>
+    <!-- start of footer -->
+    <footer class="footer bg-dark"></footer>
+
+    <script src="js/main-js.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        nameArray = [
+            "Prof(Dr.) Valentina Emilia Balas , Aurel Vlaicu University of Arad, Romania",
+
+            "Prof(Dr.) Marius Balas , Aurel Vlaicu University of Arad, Romania",
+
+            "Prof(Dr.) Mohamed Salim Bouhlel , Sfax University, Tunisia",
+
+            "Prof(Dr.) Aboul Ella Hassanien , Cairo University, Egypt",
+
+            "Prof(Dr.) Vincenzo Piuri , University of Milan, Italy",
+
+            "Prof(Dr.) Salah-ddine Krit , University Ibn Zohr – Agadir, Morocco",
+
+            "Prof(Dr.) David Camacho , Associate Prof, Universidad Autonoma de Madrid, Spain",
+
+            "Prof(Dr.) M. H. Khan , IET, Lucknow",
+
+            "Prof(Dr.) Parmanand , Dean, Sharda University, India",
+
+            "Dr. Mohamed Mostafa Fouad , Arab Academy for Science and Technology, Egypt",
+
+            "Dr. Sanjay Kumar Biswash , Research Scientist INFOCOMM Lab, ICNRTPU, Russia",
+
+            "Prof(Dr.) Manish Gaur , IET, Lucknow",
+
+            "Dr. Paolo Bellavista , Associate Professor, Alma Mater Studiorum – Università di Bologna",
+
+            "Dr. Alex Norta , Associate Professor, Tallinn University of Technology, Estonia",
+
+            "Prof(Dr.) Kshama Paithankar , SVIM, Indore",
+
+            "Prof(Dr.) Maheshawari Tripathi , IET, Lucknow",
+
+            "Prof(Dr.) Huseyin Irmak , Cankiri Karatekin University, Turkey",
+
+            "Prof(Dr.) Zoltan Horvath , Professor, Kasetsart University",
+
+            "Dr. AKM Matiul Alam , Vancouver British Columbia Canada",
+
+            "Dr. Daniela Lopez De Luise , Computational Intelligence and Information System Lab",
+
+            "Dr. Dac-Nhuong Le , Haiphong University, Vietnam",
+
+            "Dr. Dusanka Boskovic , University of Sarajevo, Sarajevo",
+
+            "Dr. D Jude Hemanth , Associate Professor, Karunya University, Coimbatore",
+
+            "Dr. Pradeep Kumar Mallick , Professor, KIIT University",
+
+            "Prof(Dr.) Tanuja SRIVASTAVA , Department of Mathematics, Indian Institute of Technology, Roorkee",
+
+            "Prof(Dr.) Giorgos Karagiannidis , Aristotle University of Thessaloniki, Greece",
+
+            "Dr. Kirti Tyagi , Inha University, Tashkent",
+
+            "Dr. Andri Pranolo , Universitas Ahmed Dahlan, Indonesia",
+
+            "Dr. Mahesh Bundele , Poornima University, India",
+
+            "Dr. Pawan Kumar Tiwari , IET, Lucknow",
+
+            "Dr. Rajesh Kumar , CSE Dept, Thapar University, Punjab, India",
+
+            "Dr. Uday Shankar , Deen Dayal Uppadhayay, UP, India",
+
+            "Dr. Dhurender , IT Dept, Netaji Subhash Institute of Technology, Delhi",
+
+            "Prof(Dr.) Rajesh Tyagi , SRM University, India",
+
+            "Dr. Kapil Sharma , Professor, Delhi Technological University, Delhi, India",
+
+            "Dr. Amar Mohapatra , Associate Professor, IGDTUW, Delhi, India",
+
+            "Dr. PS Rana , Assistant Professor, Thapar University, Punjab, India",
+
+            "BDr. Vishal Kumar , TKIT, Dwarahat, India",
+
+            "Prof(Dr.) Himani Bansal , JIIT, Noida, India",
+
+            "Dr. Anirban Basu , President, CSI, India Council, Bangalore, India",
+
+            "Dr. Vikram Bali , Head of Department-CSE, Panipat Institute of Engineering & Technology, Panipat, India",
+
+            "Dr. Brojo Kishore Mishra , Associate Professor, CV Raman College of Engineering, Bhubaneshwar",
+
+            "Dr D.V. Ashoka , Professor, JSS Academy of Technical Education, Bangalore, India",
+
+            "Dr. Thippeswamy G , Professor & HOD Computer Science BMS Institute of Technology, Bangalore",
+
+            "Dr. Vinod Kumar Verma , Sant Longowal Institute of Engineering & Technology, (Deemed University), Punjab, India",
+
+            "Prof D. P. Mishra , Prof. In-Charge T & P Cell Asso. Prof. Bhilai Institute of Technology, Bhilai House, Durg, CG",
+
+            "Dr. Debabrata Samanta , Associate professor, Dayananda Sagar College of Arts, Science and Commerce, Bangalore, India",
+
+            "Prof. Meenu Vijarania , Assistant Professor Department of Computer Science Amity University Haryana",
+
+            "Dr. Manjesh , Associate Professor Bangalore University, Bangalore",
+
+            "Dr. V.PUSHPARAJESH , Kongu Engineering College, India",
+
+            "Prof(Dr.) R.Shivakumar , Sona College of Technology, Salem, India",
+
+            "Prof.(Dr.) K.P.Yadav , Director KCC Institute of Technology & Management, Greater Noida",
+
+            "Dr. T.R. Sumithira , K.S.R. College of Engineering, Tiruchengode",
+
+            "Dr. S.ALBERT ALEXANDER , Kongu Engineering College Perundurai, Tamilnadu, India",
+
+            "Dr. Ganesh Venkatesan , Managing Director, Elsevier, Chennai, India",
+
+            "Dr. Deepti Mehrotra , Amity University, Noida, India",
+
+            "Prof(Dr.) Himanshu Agarwal , Punjabi University, Patiala, India",
+
+            "Prof(Dr.) Sujata Pandey , Amity University, Noida, India",
+
+            "Prof(Dr.) Anil Kumar Ahlawat , KIET Group of Institutes, India",
+
+            "Dr. Hanumat G Sastry , Associate Professor, UPES, Dehradun, India",
+
+            "Mr. Jayraj Ugarkar , Head, Internet of Things, Infosys, Bangalore, India",
+
+            "Dr. Samarjeet Borah , Associate Professor, Sikkim Manipal Institute of Technology, India",
+
+            "Prof(Dr.) Siddhartha Bhattacharyya , CHRISST University, Bangalore, India",
+
+            "Dr. Uzzal Sharma , Asst. Professor Department of Computer Science & Engineering, Assam Don Bosco University",
+
+            "Prof(Dr.) Akshaye Dhawan , Ursinus College, Pennsylvania, USA",
+
+            "Dr. Gurpreet Singh , Giani Zail Singh Campus College of Engineering & Technology, Maharaja Ranjit Singh Punjab Technical University, Bathinda, India",
+
+            "Mr. Natthan Singh, , IET, Lucknow",
+
+            "Mr. Manik Chandra, , IET, Lucknow",
+
+            "Dr. Anil Verma , Thapar University, Patiala, India",
+
+            "Prof(Dr.) A.K. Singh , NIT Kurukshetra, India",
+
+            "Prof(Dr.) Subhra Saggar , Director, GNIM, India",
+
+            "Prof(Dr.) Mangey Ram Swami , Graphic Era University, Dehradun, India",
+
+            "Dr. Swagatam Das , Associate Professor, Indian Statistical Institute, Kolkata, India",
+
+            "Prof(Dr.) Abhishek Swaroop , Bhagwan Parshuram Institute of Technology, Delhi",
+
+            "Dr. Hemraj Saini , Associate Professor, Jaypee University of Information Technology, Waknaghat, India",
+
+            "Prof(Dr.) Prasanta Jana , Indian Institute of Technology, Dhanbad, India",
+
+            "Dr. Sandeep Chaurasia , Associate Professor, Manipal University , Jaipur, India",
+
+            "Dr. Manish Saini , Assistant Professor, DCRUST, Haryana, India",
+
+            "Dr. Seema Verma , Associate Professor , Banasthali Vidyapith, Rajasthan, India",
+
+            "Dr. Om Prakash Sangwan , Associate Professor, Guru Jambheshwer University of Science & Technology,, Hissar, India",
+
+            "Prof(Dr.) Atul Gonsai , Saurashtra University, Rajkot",
+
+            "Dr. Nguyen Ha Huy CUong , Lecturer, Quang Nam University, Tam Ky City, Vietnam",
+
+            "Dr. Neeraj Kumar , Associate Professor, Thapar University, Punjab",
+
+            "Dr. Udayan Ghosh , Associate Professor, GGSIPU, Delhi",
+
+            "Dr. Rama Kishore , Associate Professor, GGSIPU, Delhi",
+
+            "Dr. Achal Kaushik , Bhagwan Parshuram Institute of Technology, Delhi",
+
+            "Dr. Akshi Kumar , Assistant Professor, DTU, Delhi, India",
+
+            "Dr. Rashmi Agarwal , MRUI, Haryana, India",
+
+            "Dr. Awdesh Singh , Professor, Galgotia university, UP, India",
+
+            "Dr. Shikha Jain , Assistant Professor, JUIT Noida, India",
+
+            "Dr. Bharti Sharma , Associate Professor, NIT Kurukshetra, India",
+
+            "Dr. Parmit Kaur , Assistant Professor, JUIT, Noida, India",
+
+            "Dr. Deepak Sharma , Assistant Professor, Netaji Subhash Institute of Technology, India",
+
+            "Dr. Arun Sharma , Associate Professor, IGDTUW, Delhi, India",
+
+            "Dr. Abhishek Bhattacharya , Institute of Engineering and Management, Kolkata, India",
+
+            "Dr. Ashish Khanna , MAIT, Delhi, India",
+
+            "Dr. Jyotsna Sinha , Director, RCIT, GGSIPU, India",
+
+            "Dr. PS Bedi , Guru Tegh Bahadur Institute of Technology, GGSIPU, Delhi, India",
+
+            "Dr. Brett Edward Trusko , President & CEO(IAOIP) and Assistant Professor, Texas A&M University, Texas",
+
+            "Dr. S.Nagaprasad , S.R.R.Govt.Arts & Science College, Karimnagar, Telangana",
+
+            "Dr. Deepak Gupta , MAIT, Delhi, India",
+
+            "Prof(Dr.) Venkatadri Marriboyina , Amity University, Gwalior, India",
+
+            "Dr. Jyoti Mishra , Assistant Professor, Gyan Ganga Institute of Tech and Sciences",
+
+            "Dr. Aleksandar Mastilovic , University of Novi Sad, Serbia",
+
+            "Dr. Amit Agarwal , University of Petroleum & Energy Studies Dehradun",
+
+            "Prof (Dr.) Victor Hugo C. de Albuquerque , University of Fortaleza (UNIFOR), Brazil",
+
+            "Dr. Virender Ranga , National Institute of Technology, Kurukshetra",
+
+            "Dr. J.N. Singh , BBA University, Lucknow",
+
+            "Dr. Priyanka Sharma , Nirma University of Science and Technology, Ahmedabad",
+
+            "Dr. Saytajee Srivastava , Galgotias University, Greater Noida",
+
+            "Dr. Raqaiya Khanam , Galgotias University, Greater Noida",
+
+            "Dr. Neeraj Gupta , K.R. Mangalam University, Gurgaon",
+
+            "Dr. D.K. Samadhiya , University of Taiwan, Taiwan",
+
+            "Dr. P.K. Jawahar , B.S.ABDUR RAHMAN UNIVERSITY, Chennai",
+
+            "Dr. P.K. Jawahar , B.S.ABDUR RAHMAN UNIVERSITY, Chennai",
+
+            "Dr. Kamal Kant , Dr. Harisingh Gour Central University, Sagar (M.P.)",
+
+            "Dr. Sajai Vir Singh , Jaypee institute of information Technology, Noida (U.P.)",
+
+            "Dr. Karan Singh , Jawaharlal Nehru University, Delhi",
+
+            "Dr. Rashid Ali , Department of Computer Engineering, AMU, Aligarh, India",
+
+            "Dr. Shelly Sachdeva , Department of Computer Science, JIIT University, Noida",
+
+            "Dr. Paresh Virparia , Department of Computer Science and Technology, S.P University, V. V. Nagar",
+
+            "Dr. Sawtantar Singh Khurmi , Punjab Technical University, Chandigarh",
+
+            "Dr. Kamal Kumar , SoCSE, UPES Bidholi, Dehradun",
+
+            "Dr. Gaurav Sharma , Universite Libre de Bruxelles, Belgique",
+
+            "Prof(Dr.) Bright Keswani , Suresh Gyan Vihar University Mahal, Jagatpura, Jaipur",
+
+            "Dr. Ravi Gulati , Veer Narmad South Gujarat University, Surat",
+
+            "Dr. Suraiya Jabin , JAMIA MILLIA ISLAMIA, Delhi",
+
+            "Prof (Dr.) Vijay Singh Rathore , Jaipur Engineering College & Research Centre",
+
+            "Dr. Ankit Mundra , Central University of Rajasthan, Ajmer",
+
+            "Dr. Jyotirmay Patel , Meerut Institute of Technology, Merrut",
+
+            "Katarzyna Wasielewska-Michniewska , Systems Research Institute, Polish Academy of Sciences, Warsaw, Poland",
+
+            "Prof. Pramod Kumar , Krishna Engineering College, Ghaziabad, India",
+
+            "Dr. Vijender Kr. Solanki , CMR Institute of Technology, Hyderabad",
+
+            "Prof. Manuel Cardona , Universidad Don Bosco EI Salvador",
+
+            "Dr. Ahmed A. Elngar , Assistant professor , Faculty of Computers and Information, Beni-Suef University, Beni Suef, Salah Salem Str., 62511 Egypt",
+
+            "Dr.G.Suseendran , Assistant Professor, Department of Information Technology Vels (VISTAS), Chennai",
+
+            "Dr. Hamid Reza Boveiri , Sama College, IAU, Shoushtar Branch, Khuzestan, Iran",
+
+            "Gabriela Raducan , Senior Research Fellow, La Trobe Innovation and Entrepreneurship Foundry",
+
+            "Dr. Pavel Kromer , VSB Technical University of Ostrava",
+
+            "Dr. Gajendra Pratap Singh , Jawaharlal Nehru University, Delhi, India",
+
+            "Dr. Pradeep Kumar Singh , Jaypee University of Information Technology (JUIT), Waknaghat, H.P.",
+
+            "Dr. Yousaf Bin Zikria , Yeungnam University, South Korea",
+
+            "Dr. Sanjay Sood , Associate Director at C-DAC, Mohali",
+
+            "S. Mahaboob Hussain , Vishnu Institute of Technology, Bhimavarm",
+
+            "Dr. Dinesh C Jain , Acropolis Institute of Technology and Research Indore (MP) 453771, India",
+
+            "Dr. Surendra Shetty , Department of MCA NMAM.I.T., Nitte",
+
+            "Dr. Alok Ranjan Prusty , Ministry of Skill Development & Entrepreneurship, Government of India",
+
+            "Dr. Amit Kumar Manocha , Director, Punjab Institute of Technology, GTB Garh MOGA.",
+
+            "Dr. Sahil Garg , École de technologie supérieure, Université du Québec, Montreal, Canada",
+
+            "Dr. Gagangeet Singh Aujla , Newcastle University, UK",
+
+            "Dr. Prabhat Kumar , National Institute of Technology Patna, India",
+
+            "Dr. Mohamed Elhoseny , University of North Texas",
+
+            "Dr. Hari Mohan Pandey , Edge Hill University, UK",
+
+            "Dr. Ajay Jaiswal , SSCBS, University of Delhi",
+
+            "Dr. Sameer Anand , SSCBS, University of Delhi",
+
+            "Dr. M. Tanveer , Indian Institute of Technology, Indore, India",
+
+            "Dr. Jafar A. Alzubi , Al-Balqa Applied University, Salt - Jordan",
+
+            "Dr. Aditya Khamparia , Lovely Professional University, Punjab, India",
+
+            "Dr. Mohamed Abd Elfattah , MET, Mansoura, EZYPT",
+
+            "Dr. Amina Omrane , Assistant Professor, University of Sfax - Tunisia",
+
+            "Prof(Dr.) Suman Lata Tripathi , Lovely Professional University, Punjab, India",
+
+            "Dr. Krishna Kant Singh , KIET Group of Institutes, Ghaziabad, India.",
+
+            "Dr. K.P. Sanal Kumar , R.V. Government College, Chengalpattu.Tamil Nadu, India.",
+
+            "Dr. S. Vimal , National Engineering College, Kovilpatti, Thoothukudi, Tamilnadu, India.",
+
+            "Dr. Bindeshwar Singh , Kamla Nehru Institute of Technology (An Autonomous Government Engineering Institute), Sultanpur-228118 (U.P.), INDIA.",
+
+            "Dr Purnima Lala Mehta , Assistant Professor, IILM",
+
+            "Prof. Dr Kamil Dimililer , Near East University",
+        ];
+        let container = document.getElementById("technical-container");
+        let i = 0;
+        let content = "";
+        for (let i = 0; i < nameArray.length; i = i + 2) {
+            content += '<div class="boxes m-auto"><div class="rows"><div class="box-style"><h5 class="steering-text">' +
+                nameArray[i].slice(0, nameArray[i].indexOf(",")) + '</h5><h5 class="steering-subtext">' + nameArray[i].slice(nameArray[i].indexOf(",") + 1)
+            if (!(nameArray[i + 1])) {
+                content += '</h5></div></div>'
+                break;
+            }
+            content += '</h5></div><div class="row2-col2 box-style"><h5 class="steering-text">' + nameArray[i + 1].slice(0, nameArray[i + 1].indexOf(",")) +
+                '</h5><h5 class="steering-subtext">' + nameArray[i + 1].slice(nameArray[i + 1].indexOf(",") + 1) + '</h5></div></div></div>'
+        }
+        container.innerHTML = content;
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the button element
+            var scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+            // Add a click event listener to the button
+            scrollToTopBtn.addEventListener('click', function () {
+                // Scroll to the top of the page
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth' // Add smooth scrolling behavior
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
