@@ -2,7 +2,7 @@ window.onload = function (e) {
   $(document).ready(function () {
     $('.jumbotron').append(`
     <div class="canvas">
-            <div><h2 style="font-size:1.4rem;font-weight:600;margin:15px 0px">19-20<sup>th</sup> December 2024</h2>
+            <div><h2 style="font-size:1.4rem;font-weight:600;margin:15px 0px">17-18<sup>th</sup> January 2025</h2>
             <h1 style="font-size: 2rem;font-weight:700;margin:15px 0px">2<sup>nd</sup>  International Conference on Computational<br>Research and Data Analytics  (ICCRDA-2024)</h1>
             <h2 style="font-size:1.4rem;font-weight:600;margin:15px 0px">Duy Tan University, Da Nang,Vietnam</h2>
             <p id="demo" style="font-size:1.6rem;font-weight:700"></p>
@@ -38,7 +38,7 @@ window.onload = function (e) {
                         <br>
                         <!--<i class="fa fa-phone"> &nbsp;: +</i> <br>--!>
                         <!--<i class="fa fa-fax"> : +</i> <br>--!>
-                        <i class="fa fa-envelope fa-lg">  : <a href="mailto:icicc.editor@gmail.com" class="foot-link">icicc.editor@gmail.com</a></i>
+                        <i class="fa fa-envelope fa-lg">  : <a href="mailto:iccrda.congress@gmail.com" class="foot-link">icicc.editor@gmail.com</a></i>
                      </address>
                       </div>
                       <div class="col-12 col-sm-4 align-self-center">
@@ -163,7 +163,7 @@ window.onload = function (e) {
   });
 }
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 19, 2024 12:00:00").getTime();
+var countDownDate = new Date("Jan 17, 2025 12:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
