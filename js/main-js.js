@@ -8,7 +8,7 @@ window.onload = function (e) {
             <p id="demo" style="font-size:1.6rem;font-weight:700"></p>
             <a href="Registrations.html" class="btn btn-primary ">Register Now</a>
             </div>
-            <div><img src="/gallery/duytan.png" alt="Duy Tan" width="200" height="200" hspace= "15" class="img-fluid top_image"><br>
+            <div><img src="../duytan.png" alt="Duy Tan" width="200" height="200" hspace= "15" class="img-fluid top_image"><br>
             <!--<img src="gallery/springer.png" alt="Springer" width="200" height="200" hspace= "15" class="img-fluid top_image">--!>
             </div>
             
@@ -38,7 +38,7 @@ window.onload = function (e) {
                         <br>
                         <!--<i class="fa fa-phone"> &nbsp;: +</i> <br>--!>
                         <!--<i class="fa fa-fax"> : +</i> <br>--!>
-                        <i class="fa fa-envelope fa-lg">  : <a href="mailto:iccrda.congress@gmail.com" class="foot-link">icicc.editor@gmail.com</a></i>
+                        <i class="fa fa-envelope fa-lg">  : <a href="mailto:iccrda.congress@gmail.com" class="foot-link">iccrda.congress@gmail.com</a></i>
                      </address>
                       </div>
                       <div class="col-12 col-sm-4 align-self-center">
