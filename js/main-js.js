@@ -8,7 +8,7 @@ window.onload = function (e) {
             <p id="demo" style="font-size:1.6rem;font-weight:700"></p>
             <a href="Registrations.html" class="btn btn-primary ">Register Now</a>
             </div>
-            <div><img src="../ICCRDA-2024/gallery/duytan.png" alt="Duy Tan" width="200" height="200" hspace= "15" class="img-fluid top_image"><br>
+            <div><img src="/gallery/duytan.png" alt="Duy Tan" width="200" height="200" hspace= "15" class="img-fluid top_image"><br>
             <!--<img src="gallery/springer.png" alt="Springer" width="200" height="200" hspace= "15" class="img-fluid top_image">--!>
             </div>
             
