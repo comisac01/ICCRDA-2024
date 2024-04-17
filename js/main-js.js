@@ -5,15 +5,16 @@ window.onload = function (e) {
             <div><h2 style="font-size:1.4rem;font-weight:600;margin:15px 0px">17-18<sup>th</sup> January 2025</h2>
             <h1 style="font-size: 2rem;font-weight:700;margin:15px 0px">2<sup>nd</sup>  International Conference on Computational<br>Research and Data Analytics  (ICCRDA-2025)</h1>
             <h2 style="font-size:1.4rem;font-weight:600;margin:15px 0px">ICCRDA 2025 will be jointly organsied
-             by School of Open Learning, University of Delhi and Duy Tan University, Da Nang,Vietnam</h2>
+             by School of Open Learning, University of Delhi,  Shaheed Rajguru College of Applied Sciences, University of Delhi and Duy Tan University, Da Nang,Vietnam</h2>
             <p id="demo" style="font-size:1.6rem;font-weight:700"></p>
             <!--<h1 style="font-family: 'Merriweather', serif;font-size:1.0rem;text-transform:uppercase">ICCRDA 2025 will be jointly organsied by School of Open Learning, University of Delhi and
             Duy Tan University, Da Nang,Vietnam</h2>-->
             <a href="Registrations.html" class="btn btn-primary ">Register Now</a>
             </div>
             <div>
-            <img src="../duytan.png" alt="Duy Tan" width="200" height="200" hspace= "15" class="img-fluid top_image">
             <img src="../du.jpg" alt="DU" width="200" height="200" hspace= "15" class="img-fluid top_image">
+            <img src="../raj.png" alt="RAJ" width="200" height="200" hspace= "15" class="img-fluid top_image">
+            <img src="../duytan.png" alt="Duy Tan" width="200" height="200" hspace= "15" class="img-fluid top_image">
             <!--<img src="gallery/springer.png" alt="Springer" width="200" height="200" hspace= "15" class="img-fluid top_image">--!>
             </div>
             
