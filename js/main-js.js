@@ -13,7 +13,7 @@ window.onload = function (e) {
             </div>
             <div>
             <img src="../du.jpg" alt="DU" width="200" height="200" hspace= "15" class="img-fluid top_image">
-            <img src="../raj.png" alt="RAJ" width="200" height="200" hspace= "15" class="img-fluid top_image">
+            <img src="gallery/raj.png" alt="RAJ" width="200" height="200" hspace= "15" class="img-fluid top_image">
             <img src="../duytan.png" alt="Duy Tan" width="200" height="200" hspace= "15" class="img-fluid top_image">
             <!--<img src="gallery/springer.png" alt="Springer" width="200" height="200" hspace= "15" class="img-fluid top_image">--!>
             </div>
