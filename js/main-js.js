@@ -10,7 +10,9 @@ window.onload = function (e) {
             Shaheed Rajguru College of Applied Sciences, University of Delhi</h2>
             <a href="Registrations.html" class="btn btn-primary ">Register Now</a>
             </div>
-            <div><img src="../duytan.png" alt="Duy Tan" width="200" height="200" hspace= "15" class="img-fluid top_image"><br>
+            <div>
+            <img src="../duytan.png" alt="Duy Tan" width="200" height="200" hspace= "15" class="img-fluid top_image">
+            <img src="../du.jpg" alt="DU" width="200" height="200" hspace= "15" class="img-fluid top_image">
             <!--<img src="gallery/springer.png" alt="Springer" width="200" height="200" hspace= "15" class="img-fluid top_image">--!>
             </div>
             
